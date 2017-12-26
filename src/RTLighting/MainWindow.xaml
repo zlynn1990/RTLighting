@@ -1,0 +1,8 @@
+﻿<Window x:Class="RTLighting.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Ray Traced Lighting" Height="745" Width="1295" KeyUp="OnKeyUp" KeyDown="OnKeyDown">
+    <Grid>
+        <Image Height="720" HorizontalAlignment="Left" Name="Canvas" Stretch="Fill" VerticalAlignment="Top" Width="1280" />
+    </Grid>
+</Window>
